@@ -9,7 +9,6 @@ class S1 {
 	}
 }
 
-
 class S2 {
 	
 	static S1 s1 = new S1();
@@ -28,6 +27,6 @@ public class Beispiel1 {
 	public static void main( String[] args ) {
 		
 		System.out.println( "Main" );
-	}
-	
+	}	
 }
+
