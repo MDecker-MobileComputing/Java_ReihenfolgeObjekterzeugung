@@ -1,22 +1,21 @@
 package de.eldecker.erzeugungsreihenfolge.beispiel1;
 
+class S0 {
+    
+    public S0() { System.out.println( "S0" ); }                    
+}
 
-class S1 {
+class S1 extends S0 {
 	
-	public S1() {
-		
-		System.out.println( "S1" );
-	}
+	public S1() { System.out.println( "S1" ); }					
 }
 
 class S2 {
 	
 	static S1 s1 = new S1();
 	
-	public S2() {
-		
-		System.out.println( "S2" );
-	}
+	public S2() { System.out.println( "S2" ); }				
+	
 }
 
 
