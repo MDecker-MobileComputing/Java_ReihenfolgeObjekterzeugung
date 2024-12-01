@@ -11,6 +11,8 @@ class O2 {
 	public O2() { System.out.println( "O2" ); }
 }
 
+//----------------------------------------------------------
+
 class O3 {
 		
 	O1 o1 = new O1();
@@ -25,7 +27,7 @@ class O4 extends O3 {
 	public O4() { System.out.println( "O4" ); } 
 }
 
-
+//----------------------------------------------------------
 
 public class Beispiel3 {
 

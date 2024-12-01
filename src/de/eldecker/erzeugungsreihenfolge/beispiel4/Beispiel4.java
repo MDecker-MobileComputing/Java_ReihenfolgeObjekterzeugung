@@ -16,6 +16,7 @@ class S3 {
 	public S3() { System.out.println( "S3" ); } 
 }
 
+//----------------------------------------------------------
 
 class O1 {
 		
@@ -32,6 +33,7 @@ class O3 {
 	public O3() { System.out.println( "O3" ); } 
 }
 
+//----------------------------------------------------------
 
 class Ober {
 			
@@ -51,6 +53,7 @@ class Unter extends Ober {
 	public Unter() { System.out.println( "Unter" ); } 
 }
 
+//----------------------------------------------------------
 
 public class Beispiel4 {
 
